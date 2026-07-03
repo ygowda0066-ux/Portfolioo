@@ -175,7 +175,7 @@ const whatsappLink =
               </div>
               <div>
                 <span className="block text-xs uppercase tracking-wider font-mono text-gray-400">Email</span>
-                <span className="text-base font-bold text-gray-900 dark:text-white group-hover:text-[#7ED957] transition-colors">{greemfilm0606@gmail.com}</span>
+                <span className="text-base font-bold text-gray-900 dark:text-white group-hover:text-[#7ED957] transition-colors">greemfilm0606@gmail.com</span>
                 <p className="text-xs text-gray-500 dark:text-zinc-400 mt-1">Get in touch</p>
               </div>
             </motion.a>
