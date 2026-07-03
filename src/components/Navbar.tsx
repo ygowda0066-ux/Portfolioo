@@ -56,7 +56,7 @@ export default function Navbar({ activePage, setActivePage, darkMode, setDarkMod
           >
             {portfolioConfig.personalInfo.logo ? (
               <img
-                src="public/Green.PNG"
+                src="/Green.PNG"
                 alt="Photography Logo"
                 className="h-10 w-10 rounded-full object-cover border border-[#7ED957]"
                 referrerPolicy="no-referrer"
