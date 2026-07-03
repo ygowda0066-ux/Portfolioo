@@ -37,7 +37,6 @@ export default function Home({ setActivePage }: HomeProps) {
         whileHover={{ y: -4, scale: 1.05 }}
         href="https://www.linkedin.com/in/yogesh-gowda-77bb5a41a?utm_source=share_via&utm_content=profile&utm_medium=member_ios"
         target="_blank"
-        target="_blank"
         rel="noopener noreferrer"
         className="p-3.5 rounded-full bg-gray-100 dark:bg-zinc-900 text-gray-700 dark:text-zinc-300 hover:bg-[#7ED957]/15 hover:text-[#7ED957] dark:hover:bg-[#7ED957]/20 transition-all shadow-sm cursor-pointer border border-gray-200/50 dark:border-zinc-800"
         aria-label="LinkedIn"

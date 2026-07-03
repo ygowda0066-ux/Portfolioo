@@ -243,7 +243,7 @@ const whatsappLink =
                         </p>
                         <a
                           id="btn-complete-mailto"
-                          href=mailto:greenfilm0606@gmail.com?subject=New Inquiry from ${encodeURIComponent(lastSubmission.name)}&body=${encodeURIComponent(
+                          href={`mailto:greenfilm0606@gmail.com?subject=New Inquiry from ${encodeURIComponent(lastSubmission.name)}&body=${encodeURIComponent(
                             `Name: ${lastSubmission.name}\nEmail: ${lastSubmission.email}\nPhone: ${lastSubmission.phone || "Not provided"}\n\nMessage:\n${lastSubmission.message}`
                           )}`}
                           className="inline-flex items-center gap-2 px-4 py-2 bg-emerald-500 hover:bg-emerald-600 text-zinc-950 hover:text-white text-xs font-black rounded-lg shadow-sm transition-all"
