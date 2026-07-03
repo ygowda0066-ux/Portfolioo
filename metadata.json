@@ -1,0 +1,6 @@
+{
+  "name": "Video Editor & Photographer Portfolio",
+  "description": "A premium, cinematic portfolio website for a professional Video Editor & Photographer, featuring dynamic galleries, dark/light mode, and a contact form connected to a backend.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
