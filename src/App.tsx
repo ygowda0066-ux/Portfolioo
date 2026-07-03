@@ -115,11 +115,11 @@ export default function App() {
       {/* Footer copyright */}
       <footer className="py-6 border-t border-gray-100 dark:border-zinc-900 text-center font-mono text-[10px] text-gray-400 dark:text-zinc-500">
         <div className="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between gap-4">
-          <p>© {new Date().getFullYear()} Aarav Sharma. All cinematic rights reserved.</p>
+          <p>© {new Date().getFullYear()} Green. All cinematic rights reserved.</p>
           <div className="flex gap-4">
-            <span>Inter, Poppins Typeface</span>
+            <span>Cinematography</span>
             <span>•</span>
-            <span>Tailwind 4 & Motion 12</span>
+            <span>FPV Drone Filming</span>
           </div>
         </div>
       </footer>
