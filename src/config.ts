@@ -26,7 +26,6 @@ export interface PortfolioConfig {
   galleries: {
     travel: MediaItem[];
     commercial: MediaItem[];
-    prewedding: MediaItem[];
   };
 }
 
@@ -36,8 +35,8 @@ export const portfolioConfig: PortfolioConfig = {
     title: "Video Editor & Photographer",
     subtitle: "Green Films",
     bio: "I'm a Videographer, Photographer, Cinematographer, Video Editor, and FPV Drone Pilot passionate about cinematic storytelling. I specialize in travel, fashion, food, hospitality, and brand content, creating high-quality visuals from concept to final edit. Skilled in DaVinci Resolve, CapCut, Photoshop, and Lightroom, I focus on delivering creative and impactful content that brings every story to life.",
-    profilePicture: "public/Profile.PNG",
-    logo: "public/Green.PNG",
+    profilePicture: "/Profile.PNG",
+    logo: "/Green.PNG",
     email: "greenfilm0606@gmail.com",
     whatsappNumber: "917204130306" // Replace with your phone number (91 for India, followed by 10 digits)
   },
@@ -53,24 +52,24 @@ export const portfolioConfig: PortfolioConfig = {
         title: "Hampi",
         description: "A UNESCO World Heritage Site in Karnataka, famous for its ancient temples, magnificent stone ruins, and rich cultural history.",
         type: "video",
-        url: "public/Hampi.mp4",
-        thumbnailUrl: "public/Hampi.PNG"
+        url: "/Hampi.mp4",
+        thumbnailUrl: "/Hampi.PNG"
       },
       {
         id: "t2",
         title: "Varanasi",
         description: "One of the world’s oldest living cities, located on the banks of the River Ganges, renowned for its spiritual significance, sacred ghats, and vibrant cultural heritage.",
         type: "video",
-        url: "public/Varanasi.mp4",
-        thumbnailUrl: "public/Varanasi.PNG"
+        url: "/Varanasi.mp4",
+        thumbnailUrl: "/Varanasi.PNG"
       },
       {
         id: "t3",
         title: "Ooty",
         description: "A beautiful hill station in Tamil Nadu known for its cool climate, tea gardens, scenic mountains, and peaceful landscapes.",
         type: "video",
-        url: "public/Ooty.mp4",
-        thumbnailUrl: "public/Ooty.png"
+        url: "/Ooty.mp4",
+        thumbnailUrl: "/Ooty.png"
       }
     ],
     commercial: [
@@ -79,8 +78,8 @@ export const portfolioConfig: PortfolioConfig = {
         title: "Blood Donation Camp",
         description: "Capturing the spirit of kindness and community as people come together to donate blood and help save lives.",
         type: "video",
-        url: "public/BloodCamp.mp4",
-        thumbnailUrl: "public/Blood.jpeg"
+        url: "/BloodCamp.mp4",
+        thumbnailUrl: "/Blood.jpeg"
       }
     
     ]

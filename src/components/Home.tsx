@@ -96,7 +96,7 @@ export default function Home({ setActivePage }: HomeProps) {
               <div className="absolute inset-0 bg-[#7ED957]/10 rounded-2xl blur-lg opacity-40 group-hover:opacity-60 transition-all duration-500" />
               <div className="relative p-1.5 bg-white/60 dark:bg-zinc-900/50 backdrop-blur-md rounded-2xl border border-gray-200/60 dark:border-zinc-800/80 shadow-md flex items-center justify-center w-24 h-24">
                 <img
-                  src="public/Profile.PNG"
+                  src={logo}
                   alt=""
                   referrerPolicy="no-referrer"
                   className="w-full h-full rounded-xl object-contain transition-transform duration-500 group-hover:scale-105"
@@ -117,7 +117,7 @@ export default function Home({ setActivePage }: HomeProps) {
             <div className="absolute inset-0 bg-gradient-to-tr from-[#7ED957] to-emerald-400 rounded-full blur-2xl opacity-20 group-hover:opacity-45 transition-all duration-500" />
             <div className="relative p-1 bg-white dark:bg-zinc-900 rounded-full border border-[#7ED957]/30 shadow-2xl">
               <img
-                src="public/Profile.PNG"
+                src={profilePicture}
                 alt="Green Films"
                 referrerPolicy="no-referrer"
                 className="w-48 h-48 sm:w-56 sm:h-56 md:w-64 md:h-64 rounded-full object-cover transition-transform duration-700 group-hover:scale-105"
