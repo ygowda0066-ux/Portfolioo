@@ -165,7 +165,7 @@ const whatsappLink =
             {/* Direct Email Card */}
             <motion.a
               id="btn-direct-email"
-              href={greenfilm0606@gmail.com}
+              href="greenfilm0606@gmail.com"
               whileHover={{ scale: 1.02, y: -2 }}
               whileTap={{ scale: 0.99 }}
               className="flex items-center gap-5 p-6 frosted-panel shadow-sm hover:shadow-md hover:border-[#7ED957]/30 transition-all cursor-pointer group"
@@ -183,7 +183,7 @@ const whatsappLink =
             {/* WhatsApp Chat Card */}
             <motion.a
               id="btn-direct-whatsapp"
-              href={https://wa.me/917204130306}
+              href="https://wa.me/917204130306"
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ scale: 1.02, y: -2 }}
