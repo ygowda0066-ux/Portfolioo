@@ -239,7 +239,7 @@ const whatsappLink =
                     {statusMsg.type === "success" && lastSubmission && !lastSubmission.sentViaResend && (
                       <div className="mt-3 pt-3 border-t border-emerald-500/15">
                         <p className="text-xs text-emerald-700/80 dark:text-emerald-350/80 leading-relaxed mb-3">
-                          Since the Resend background email delivery service is awaiting configuration in the workspace secrets, you can instantly dispatch these details directly to the artist's mailbox (<strong>{email}</strong>) with one click below:
+                          Since the Resend background email delivery service is awaiting configuration in the workspace secrets, you can instantly dispatch these details directly to the artist's mailbox (<strong>greenfilm0606@gmail.com</strong>) with one click below:
                         </p>
                         <a
                           id="btn-complete-mailto"
